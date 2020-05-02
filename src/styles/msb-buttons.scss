@@ -91,24 +91,27 @@ $msb-button-background-disabled: rgba(0, 0, 0, 0.03);
   }
 
   @mixin msb-button-high-emphasis-mixin() {
-
+    border: none;
+    background-color: $msb-secondary;
+    &:hover {
+      background-color: $msb-secondary-darker;
+    }
   }
   @mixin msb-button-mid-emphasis-mixin() {
-
+    border: 1px solid $msb-button-border-enabled-on-light;
   }
 
 
 
   @mixin msb-button-medium-high-emphasis-mixin() {
     @include msb-button-medium-size-mixin();
-
+    @include msb-button-high-emphasis-mixin();
   }
 
   @mixin msb-button-medium-mid-emphasis-mixin(){
      @include msb-button-medium-size-mixin();
-     /@include msb-button-text-enabled-on-light();
-     border: $msb-button-border-enabled-on-light;
-     color: $msb-button-text-on-light;
+     @include msb-button-text-enabled-on-light();
+     @include msb-button-mid-emphasis-mixin();
   }
 
   @mixin  msb-button-medium-low-emphasis-mixin(){
@@ -139,4 +142,12 @@ $msb-button-background-disabled: rgba(0, 0, 0, 0.03);
 
   input[type="button"],[type="submit"] {
     @include msb-button-medium-mid-emphasis-mixin();
+    &:hover {
+
+    }
+    &[disabled] {
+      background-color: $msb-button-background-disabled;
+      border: none;
+      @include msb-button-text-disabled-on-light();
+    }
   }
