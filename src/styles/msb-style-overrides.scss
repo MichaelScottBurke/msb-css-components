@@ -2,16 +2,16 @@
 @import "./msb-buttons.scss";
 
 
-.legacyButtonMediumClasHighEmphasis {
+.legacyButtonMediumClassHighEmphasis {
   @include msb-button-medium-high-emphasis-mixin();
 }
-.legacyButtonMediumClasMidEmphasis {
+.legacyButtonMediumClassMidEmphasis {
   @include msb-button-medium-mid-emphasis-mixin();
 }
-.legacyButtonMediumClasLowEmphasis {
+.legacyButtonMediumClassLowEmphasis {
   @include msb-button-medium-low-emphasis-mixin();
 }
-.legacyButtonMediumClasDisabled {
+.legacyButtonMediumClassDisabled {
   @include msb-button-medium-low-emphasis-mixin();
 }
 
