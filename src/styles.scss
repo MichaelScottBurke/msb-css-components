@@ -19,6 +19,9 @@
 @import "./styles/msb-layout-basic.scss";
 @import "./styles/msb-examples.scss";
 
+//example override styles
+@import "./styles/msb-style-overrides.scss";
+
 * {
   font-family: "Roboto";
 }
