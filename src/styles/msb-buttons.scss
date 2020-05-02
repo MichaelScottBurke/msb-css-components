@@ -1,74 +1,5 @@
 @import "./msb-variables.scss";
 /* BUTTONS */
-/* common */
-
-
-/* Buttons: high-emphasis */
-/* Large */
-@mixin msb-button-large {
-	border-radius: $msb-radius;
-	padding: 0px 16px;
-	height: 48px;
-	text-align: center;
-	margin-bottom: 16px;
-	min-width: 64px;
-	box-sizing: border-box;
-}
-
-@mixin msb-button-large-high-emphasis {
-	border: none;
-	@include msb-button-large;
-	@include msb-button-text-large-enabled-on-dark;
-	background: $msb-secondary;
-	cursor: pointer;
-	&:hover {
-		background: $msb-secondary-darker;
-	}
-}
-
-@mixin msb-button-large-high-emphasis-disabled {
-	@include msb-button-large;
-	@include msb-button-text-large-disabled-on-light;
-	background: $msb-surface-disabled-on-light;
-}
-
-/* Small */
-
-/* Buttons: mid-emphasis */
-/* Large */
-@mixin msb-button-large-mid-emphasis {
-	@include msb-button-large;
-	@include msb-button-text-large-enabled-on-light;
-	border: 1px solid $msb-secondary;
-	cursor: pointer;
-	&:hover {
-		background: rgba(0, 0, 0, 0.05);
-	}
-}
-
-/* Small */
-
-/* Buttons: low-emphasis */
-/* Large */
-@mixin msb-button-large-low-emphasis {
-	@include msb-button-large;
-	@include msb-button-text-large-enabled-on-light;
-	text-decoration: none;
-	padding-top: 16px;
-	padding-bottom: 16px;
-
-	&:hover {
-		background: rgba(0, 0, 0, 0.05);
-	}
-
-	&:focus {
-		outline: none;
-		border: 1px solid $msb-button-border-enabled-on-light;
-	}
-}
-
-/* Small */
-
 
 
 //default button styling
@@ -76,6 +7,11 @@
   @mixin msb-button-mixin() {
     border-radius: $msb-radius;
     background-color: $msb-surface-light;
+    &[disabled] {
+      background-color: $msb-surface-disabled-on-light;
+      border: none;
+      @include msb-button-text-disabled-on-light();
+    }
   }
 
   @mixin msb-button-large-size-mixin() {
@@ -102,7 +38,7 @@
   }
 
 
-
+//button mixins to apply to existing css legacy classes
   @mixin msb-button-medium-high-emphasis-mixin() {
     @include msb-button-medium-size-mixin();
     @include msb-button-high-emphasis-mixin();
@@ -114,8 +50,8 @@
      @include msb-button-mid-emphasis-mixin();
   }
 
-  @mixin  msb-button-medium-low-emphasis-mixin(){
-
+  @mixin msb-button-medium-low-emphasis-mixin(){
+    border: none;
   }
 
   @mixin msb-button-medium-low-emphasis-mixin(){
@@ -123,31 +59,36 @@
   }
 
 
-  @mixin  msb-button-large-high-emphasis-mixin(){
+  @mixin msb-button-large-high-emphasis-mixin(){
+    //@include msb-button-large-size-mixin();
+    height: 48px;
+    @include msb-button-high-emphasis-mixin();
+  }
+
+  @mixin msb-button-large-mid-emphasis-mixin(){
 
   }
 
-  @mixin  msb-button-large-mid-emphasis-mixin(){
+
+  @mixin msb-button-large-low-emphasis-mixin(){
 
   }
 
-
-  @mixin  msb-button-large-low-emphasis-mixin(){
-
-  }
-
-  @mixin  msb-button-large-low-emphasis-mixin(){
+  @mixin msb-button-large-low-emphasis-mixin(){
 
   }
-//default button style
+
+//default button style to apply everywhere
   input[type="button"],[type="submit"] {
     @include msb-button-medium-mid-emphasis-mixin();
     &:hover {
       background-color: $msb-hover-on-light;
     }
-    &[disabled] {
-      background-color: $$msb-surface-disabled-on-light;
-      border: none;
-      @include msb-button-text-disabled-on-light();
+    &.msb-button-large-high-emphasis {
+      @include msb-button-large-high-emphasis-mixin()
     }
   }
+
+  //css classes to apply to new elements or problematic legacy elements
+  .msb-button-low-emphasis {}
+  .msb-button-low-emphasis {}
