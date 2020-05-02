@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>Icons / Navigation / menu-caret-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Navigation-/-menu-caret-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M11.71,15.29 L14.3,12.7 C14.69,12.31 14.69,11.68 14.3,11.29 L11.71,8.7 C11.08,8.08 10,8.52 10,9.41 L10,14.58 C10,15.48 11.08,15.92 11.71,15.29 Z" id="Icon-Color" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

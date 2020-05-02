@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>Icons / Utility / image</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Utility-/-image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M20,2 C21.1045695,2 22,2.8954305 22,4 L22,20 C22,21.1045695 21.1045695,22 20,22 L4,22 C2.8954305,22 2,21.1045695 2,20 L2,4 C2,2.8954305 2.8954305,2 4,2 L20,2 Z M20,4 L4,4 L4,20 L20,20 L20,4 Z M15.0967165,12.8581428 C15.1672255,12.912801 15.2301032,12.9766486 15.2836756,13.047986 L19,17.9966667 L5,17.9966667 L7.73430173,14.4785318 C8.07321532,14.0424629 8.70146271,13.9637031 9.13753153,14.3026167 C9.19537733,14.3475745 9.24810743,14.3987531 9.29477239,14.4552308 L10.9966667,16.515 L13.6937082,13.0358164 C14.0320751,12.5993231 14.6602233,12.519776 15.0967165,12.8581428 Z" id="Icon-Color" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

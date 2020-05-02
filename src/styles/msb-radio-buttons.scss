@@ -1,0 +1,70 @@
+@import "./msb-variables";
+@import "./msb-icons";
+//local variables
+:root {
+  --blue: blue;
+}
+//sass map for radio button icons
+//svg code include to allow re-color as background images
+
+$msb-radio-on: var(--blue);
+$msb-radio-off: gray;
+/*
+$icons: (
+  "radio-off":
+    '<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" fill="#{$msb-radio-off}" /></svg>',
+  "radio-on":
+    '<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" fill="#{$msb-radio-on}" /><circle cx="12" cy="12" r="5" class="color-on" fill="#{$msb-radio-on}" /></svg>',
+);
+$data-svg-prefix: "data:image/svg+xml;utf-8,";
+*/
+
+//RADIO BUTTONS
+//Radio button styling achieved using svg icon with ::before pseudo selector (not possible to style real radio buttons w/ css
+
+//test mask
+.test-mask {
+  background:red no-repeat;
+  -webkit-mask-image: url(./../assets/img/search.svg);
+  mask-image: url(./../assets/img/search.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+} 
+
+//radio buttons
+input[type="radio"], input[type="radio"]:checked {
+  opacity: 0;
+  + label[for] {
+    cursor: pointer;
+    margin-left: -8px;
+    &::before {
+      float: left;
+      width: 24px;
+      height: 24px;
+      margin: 0;
+      content: " ";
+      background: url($data-svg-prefix + map-get($icons, "radio-off")) 0 0
+        no-repeat;
+      transition: $msb-transition;
+      box-shadow: 0 0 0 0px transparent;
+      border-radius: 50%;
+    }
+    &:hover::before {
+      transition: transform 1.5s linear ease-out;
+      box-shadow: 0 0 0 10px rgba($msb-secondary, 0.15);
+      background-color: rgba($msb-secondary, 0.15);
+    }
+      &:active::before {
+      box-shadow: 0 0 0 10px rgba($msb-secondary, 0.7);
+      background-color: rgba($msb-secondary, 0.7);
+    }
+  }
+  &:checked {
+    + label[for] {
+      &::before {
+        background: url($data-svg-prefix + map-get($icons, "radio-on")) 0 0
+          no-repeat;
+      }
+    }
+  }
+}

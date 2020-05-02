@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>Icons / Utility / color-filled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Utility-/-color-filled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M17.66,7.66 L12,2 L6.34,7.66 C3.22,10.78 3.22,15.85 6.34,18.97 C7.9,20.53 9.95,21.31 12,21.31 C14.05,21.31 16.1,20.53 17.66,18.97 C20.78,15.85 20.78,10.78 17.66,7.66 Z" id="Icon-Color" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

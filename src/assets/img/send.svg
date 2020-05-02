@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>Icons / Utility / send</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Utility-/-send" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M3.4,20.8848802 L20.85,13.4048802 C21.66,13.0548802 21.66,11.9148802 20.85,11.5648802 L3.4,4.08488018 C2.74,3.79488018 2.01,4.28488018 2.01,4.99488018 L2,9.60488018 C2,10.1048802 2.37,10.5348802 2.87,10.5948802 L17,12.4848802 L2.87,14.3648802 C2.37,14.4348802 2,14.8648802 2,15.3648802 L2.01,19.9748802 C2.01,20.6848802 2.74,21.1748802 3.4,20.8848802 L3.4,20.8848802 Z" id="Icon-Color" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

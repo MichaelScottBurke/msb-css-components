@@ -1,0 +1,30 @@
+@import "./msb-variables.scss";
+@import "./msb-popover.scss";
+.msb-menu {
+  @include msb-popover-background-mixin();
+  max-width: 256px;
+  //set width at context
+  li {
+    margin: auto -16px auto -16px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    &:hover {
+      background: $msb-surface-light-darker;
+    }
+      a {
+      display: block;
+      margin: 0;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0;
+      &:link, &:visited  {
+        @include msb-list-item-text();
+        text-decoration: none;
+      }
+
+      &:hover {
+       
+      }
+  }
+  }
+}

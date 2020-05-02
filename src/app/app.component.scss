@@ -1,0 +1,36 @@
+
+//hide existing image by replacing???? needs more research could replace all gifs with blank //pixel and replace via css
+input[src*="account.svg"] {
+ // background-image: url(./../assets/img/menu-main.svg);
+}
+  input[src*="account.svg"]::after {
+    content:url("http://imgur.com/SZ8Cm.jpg");
+}
+
+.msb-double-border {
+  border-color: #f06d06;
+  padding: 3px;
+  background-clip: content-box;
+  background-color: #f06d06;
+  transition: border-color ease 280ms;
+    width: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    height: 12px;
+    display: inline-block;
+}
+
+//only for example
+.msb-example-panel {
+  .msb-popover {
+    margin-bottom: 24px;
+  }
+
+}
+
+
+
+
+
+

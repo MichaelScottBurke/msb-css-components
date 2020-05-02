@@ -1,0 +1,5 @@
+//DATA TABLES
+@import "./msb-variables.scss";
+thead th {
+  @include msb-metadata-small-low-emphasis-condensed-on-light();
+}

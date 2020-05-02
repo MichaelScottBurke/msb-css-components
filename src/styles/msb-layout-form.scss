@@ -1,0 +1,16 @@
+@import "./msb-variables.scss";
+
+/* Forms */
+.msb-form-actions {
+	input[type="submit"],
+	input[type="button"] {
+		margin-right: 8px;
+		&:first-child {
+			@include msb-button-large-high-emphasis();
+			margin-left: -16px;
+		}
+		&:not(:first-child) {
+			@include msb-button-large-mid-emphasis();
+		}
+	}
+}

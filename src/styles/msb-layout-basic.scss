@@ -1,0 +1,9 @@
+@import './msb-variables.scss';
+.msb-layout-basic {
+  main {
+    padding: 24px;
+    > h1 {
+      @include msb-display-small();
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/* EXAMPLE STYLES */
+/* Container */
+.msb-example-panel {
+	background: $msb-surface-light-darker;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: $msb-radius;
+	padding: 24px;
+}
+/* Page */
+.msb-example-page {
+	background: $msb-surface-light;
+	box-shadow: $msb-elevation-08;
+	padding: 16px;
+}

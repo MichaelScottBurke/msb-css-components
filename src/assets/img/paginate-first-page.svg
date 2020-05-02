@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>Icons / Navigation / paginate-first-page</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Navigation-/-paginate-first-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M16.71,6.71 C16.32,6.32 15.69,6.32 15.3,6.71 L10.71,11.3 C10.32,11.69 10.32,12.32 10.71,12.71 L15.3,17.3 C15.69,17.69 16.32,17.69 16.71,17.3 C17.1,16.91 17.1,16.28 16.71,15.89 L12.83,12 L16.71,8.12 C17.1,7.73 17.09,7.09 16.71,6.71 Z M8,18 C8.55,18 9,17.6142857 9,17.1428571 L9,6.85714286 C9,6.38571429 8.55,6 8,6 C7.45,6 7,6.38571429 7,6.85714286 L7,17.1428571 C7,17.6142857 7.45,18 8,18 Z" id="Icon-Color" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

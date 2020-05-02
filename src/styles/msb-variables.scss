@@ -1,0 +1,1221 @@
+@mixin msb-cvd-charcoal {
+  background-color: #505050;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-cvd-orange {
+  background-color: #E69F00;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-cvd-light-blue {
+  background-color: #56B4E9; 
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-cvd-green {
+  background-color: #009E73;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-cvd-yellow {
+  background-color: #F0E442;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-cvd-blue {
+  background-color: #0072B2;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-cvd-vermillion {
+  background-color: #D55E00;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-cvd-pink {
+  background-color: #CC79A7;
+  color: rgba(255, 255, 255, 1);
+}
+
+$msb-cvd-charcoal:#505050;
+$msb-cvd-orange:#E69F00;
+$msb-cvd-light-blue:#56B4E9;
+$msb-cvd-green:#009E73;
+$msb-cvd-yellow:#F0E442;
+$msb-cvd-blue:#0072B2;
+$msb-cvd-vermillion:#D55E00;
+$msb-cvd-pink:#CC79A7;
+
+@mixin msb-success {
+  background-color: #B7479F;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-warning {
+  background-color: #D17600;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-error {
+  background-color: #DC0C22;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-important {
+  background-color: #DC0C22;
+  color: rgba(255, 255, 255, 1);
+}
+
+$msb-success:#B7479F;
+$msb-warning:#D17600;
+$msb-error:#DC0C22;
+$msb-important:#DC0C22;
+
+@mixin msb-primary {
+  background-color: #B7479F;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-primary-darker {
+  background-color: #A10B81;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-primary-lighter {
+  background-color: #D18EC3;
+  color: rgba(255, 255, 255, 1);
+}
+
+$msb-primary:#B7479F;
+$msb-primary-darker:#A10B81;
+$msb-primary-lighter:#D18EC3;
+
+@mixin msb-secondary {
+  background-color: #1374B4;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-secondary-darker {
+  background-color: #0F5D90;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-secondary-lighter {
+  background-color: #549AC8;
+  color: rgba(255, 255, 255, 1);
+}
+
+$msb-secondary:#1374B4;
+$msb-secondary-darker:#0F5D90;
+$msb-secondary-lighter:#549AC8;
+
+@mixin msb-surface-light {
+  background-color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@mixin msb-surface-light-darker {
+  background-color: #F5F5F5;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+$msb-surface-light:#FFFFFF;
+$msb-surface-light-darker:#F5F5F5;
+
+@mixin msb-surface-dark {
+  background-color: #4A4A4A;
+  color: rgba(255, 255, 255, 1);
+}
+
+@mixin msb-surface-dark-darker {
+  background-color: #323232;
+  color: rgba(255, 255, 255, 1);
+}
+
+$msb-surface-dark:#4A4A4A;
+$msb-surface-dark-darker:#323232;
+$msb-elevation-01: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+0 2px 1px -1px rgba(0, 0, 0, 0.12),
+0 1px 3px 0 rgba(0, 0, 0, 0.2);
+$msb-elevation-02: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+0 3px 1px -2px rgba(0, 0, 0, 0.12),
+0 1px 5px 0 rgba(0, 0, 0, 0.2);
+$msb-elevation-03: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+0 3px 3px -2px rgba(0, 0, 0, 0.12),
+0 1px 8px 0 rgba(0, 0, 0, 0.2);
+$msb-elevation-04: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+0 1px 10px 0 rgba(0, 0, 0, 0.12),
+0 2px 4px -1px rgba(0, 0, 0, 0.2);
+$msb-elevation-06: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+0 1px 18px 0 rgba(0, 0, 0, 0.12),
+0 3px 5px -1px rgba(0, 0, 0, 0.2);
+$msb-elevation-08: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+0 3px 14px 2px rgba(0, 0, 0, 0.12),
+0 5px 5px -3px rgba(0, 0, 0, 0.2);
+$msb-elevation-09: 0 9px 12px 1px rgba(0, 0, 0, 0.14),
+0 3px 16px 2px rgba(0, 0, 0, 0.12),
+0 5px 6px -3px rgba(0, 0, 0, 0.2);
+$msb-elevation-12: 0 12px 17px 2px rgba(0, 0, 0, 0.14),
+0 5px 22px 4px rgba(0, 0, 0, 0.12),
+0 7px 8px -4px rgba(0, 0, 0, 0.2);
+$msb-elevation-16: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+0 6px 30px 5px rgba(0, 0, 0, 0.12),
+0 8px 10px -5px rgba(0, 0, 0, 0.2);
+$msb-elevation-24: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+0 9px 46px 8px rgba(0, 0, 0, 0.12),
+0 11px 15px -7px rgba(0, 0, 0, 0.2);
+$msb-spacing-xxxxs: 0.063rem;
+$msb-spacing-xxxs: 0.125rem;
+$msb-spacing-xxs: 0.25rem;
+$msb-spacing-xs: 0.50rem;
+$msb-spacing-s: 1rem;
+$msb-spacing-m: 1.5rem;
+$msb-spacing-l: 2rem;
+$msb-spacing-xl: 2.5rem;
+$msb-spacing-xxl: 3rem;
+$msb-spacing-xxxl: 3.5rem;
+$msb-spacing-touch: 2.75rem;
+$msb-actionable-border-on-dark: rgba(255, 255, 255, 0.43);
+$msb-on-light-low-emphasis-text: rgba(0, 0, 0, 0.55);
+$msb-scrollbar-hover-on-light: rgba(0, 0, 0, 0.57);
+$msb-icon-error-on-light: rgba(220, 12, 34, 1);
+$msb-icon-enabled-on-dark: rgba(255, 255, 255, 0.9);
+$msb-icon-disabled-on-light: rgba(0, 0, 0, 0.2);
+$msb-scrim: rgba(0, 0, 0, 0.32);
+$msb-icon-disabled-on-dark: rgba(255, 255, 255, 0.3);
+$msb-on-light-input-field-border: rgba(0, 0, 0, 0.4);
+$msb-icon-enabled-on-light: rgba(0, 0, 0, 0.55);
+$msb-on-dark-input-field-border: rgba(255, 255, 255, 0.43);
+$msb-actionable-border-on-light: rgba(0, 0, 0, 0.4);
+$msb-scrollbar-hover-on-dark: rgba(0, 0, 0, 0.58);
+$msb-progress-indicator-track: rgba(0, 0, 0, 0.15);
+$msb-icon-hover-on-light: rgba(0, 0, 0, 0.87);
+$msb-divider-on-dark: rgba(255, 255, 255, 0.2);
+$msb-on-light-text: rgba(0, 0, 0, 0.87);
+$msb-selected-on-dark: #323232;
+$msb-button-border-enabled-on-dark: rgba(255, 255, 255, 0.8);
+$msb-scrollbar-idle-on-dark: rgba(0, 0, 0, 0.43);
+$msb-scrollbar-pressed-on-dark: rgba(0, 0, 0, 0.73);
+$msb-highlight-range-hover: rgba(19, 116, 180, 0.13);
+$msb-surface-disabled-on-dark: rgba(255, 255, 255, 0.2);
+$msb-button-border-disabled-on-light: rgba(0, 0, 0, 0.34);
+$msb-hover-on-dark: rgba(255, 255, 255, 0.15);
+$msb-focus-border-on-light: rgb(84, 154, 200);
+$msb-on-dark-disabled-text: rgba(255, 255, 255, 0.3);
+$msb-on-dark-text: rgba(255, 255, 255, 1);
+$msb-on-light-error-text: rgba(220, 12, 34, 1);
+$msb-focus-border-on-dark: rgba(255, 255, 255, 0.43);
+$msb-on-light-disabled-text: rgba(0, 0, 0, 0.38);
+$msb-hover-on-light: rgba(0, 0, 0, 0.05);
+$msb-button-border-disabled-on-dark: rgba(255, 255, 255, 0.2);
+$msb-surface-disabled-on-light: rgba(0, 0, 0, 0.03);
+$msb-scrollbar-pressed-on-light: rgba(0, 0, 0, 0.72);
+$msb-scrollbar-idle-on-light: rgba(0, 0, 0, 0.42);
+$msb-button-border-enabled-on-light: #1374B4;
+$msb-selected-on-light: rgba(0, 0, 0, 0.1);
+$msb-on-dark-low-emphasis-text: rgba(255, 255, 255, 0.7);
+$msb-divider-on-light: rgba(0, 0, 0, 0.12);
+$msb-scrim-on-dark: rgba(0, 0, 0, 0.32);
+$msb-icon-hover-on-dark: rgba(255, 255, 255, 1);
+
+@mixin msb-display-large {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 3.1875rem;
+}
+
+;
+$msb-display-large-font-size: 3.1875rem;
+$msb-display-large-line-height: 1.3;
+$msb-display-large-font-weight: 300;
+
+@mixin msb-display-medium {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 2.5625rem;
+}
+
+;
+$msb-display-medium-font-size: 2.5625rem;
+$msb-display-medium-line-height: 1.3;
+$msb-display-medium-font-weight: 300;
+
+@mixin msb-display-small {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+;
+$msb-display-small-font-size: 2rem;
+$msb-display-small-line-height: 1.3;
+$msb-display-small-font-weight: 300;
+
+@mixin msb-standard-heading-1 {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 1.625rem;
+}
+
+;
+$msb-standard-heading-1-font-size: 1.625rem;
+$msb-standard-heading-1-line-height: 1.3;
+$msb-standard-heading-1-font-weight: 500;
+
+@mixin msb-standard-subheading {
+  line-height: 1.3;
+  display: block;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+;
+$msb-standard-subheading-font-size: 1.125rem;
+$msb-standard-subheading-line-height: 1.3;
+$msb-standard-subheading-font-weight: 400;
+
+@mixin msb-standard-heading-2 {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 1.4375rem;
+}
+
+;
+$msb-standard-heading-2-font-size: 1.4375rem;
+$msb-standard-heading-2-line-height: 1.3;
+$msb-standard-heading-2-font-weight: 500;
+
+@mixin msb-standard-heading-3 {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+;
+$msb-standard-heading-3-font-size: 1.25rem;
+$msb-standard-heading-3-line-height: 1.3;
+$msb-standard-heading-3-font-weight: 500;
+
+@mixin msb-standard-heading-4 {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+;
+$msb-standard-heading-4-font-size: 1.125rem;
+$msb-standard-heading-4-line-height: 1.3;
+$msb-standard-heading-4-font-weight: 500;
+
+@mixin msb-standard-heading-5 {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+;
+$msb-standard-heading-5-font-size: 1rem;
+$msb-standard-heading-5-line-height: 1.3;
+$msb-standard-heading-5-font-weight: 500;
+
+@mixin msb-standard-heading-6 {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  font-size: 875rem;
+}
+
+;
+$msb-standard-heading-6-font-size: 875rem;
+$msb-standard-heading-6-line-height: 1.3;
+$msb-standard-heading-6-font-weight: 500;
+
+@mixin msb-heading--small-box {
+  line-height: 1.3;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+;
+$msb-heading--small-box-font-size: 1.25rem;
+$msb-heading--small-box-line-height: 1.3;
+$msb-heading--small-box-font-weight: 500;
+
+@mixin msb-body-text {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  //max-width: 37.5rem;
+  font-size: 1rem;
+}
+
+;
+$msb-body-text-font-size: 1rem;
+$msb-body-text-line-height: 1.5;
+$msb-body-text-font-weight: 400;
+
+@mixin msb-small-text {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1.3125rem;
+  margin-top: 1.3125rem;
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-small-text-font-size: 875rem;
+$msb-small-text-line-height: 1.5;
+$msb-small-text-font-weight: 400;
+
+@mixin msb-unordered-list {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-unordered-list-font-size: 1rem;
+$msb-unordered-list-line-height: 1.5;
+$msb-unordered-list-font-weight: 400;
+
+@mixin msb-ordered-list {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-ordered-list-font-size: 1rem;
+$msb-ordered-list-line-height: 1.5;
+$msb-ordered-list-font-weight: 400;
+
+@mixin msb-list-item-text {
+  margin-bottom: 0.50rem;
+  color: rgba(0, 0, 0, .87);
+}
+
+;
+
+@mixin msb-blockquote-text {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, .87);
+  border-left: 1px solid rgba(0, 0, 0, .87);
+  margin-bottom: 2rem;
+  font-style: italic;
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-blockquote-text-font-size: 1rem;
+$msb-blockquote-text-line-height: 1.5;
+$msb-blockquote-text-font-weight: 400;
+
+@mixin msb-blockquote-signature {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  font-style: normal;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-blockquote-signature-font-size: 1rem;
+$msb-blockquote-signature-line-height: 1.5;
+$msb-blockquote-signature-font-weight: 400;
+
+@mixin msb-quote-text {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-quote-text-font-size: 1rem;
+$msb-quote-text-line-height: 1.5;
+$msb-quote-text-font-weight: 400;
+
+@mixin msb-mark-text {
+  font-family: 'Roboto';
+  background-color: rgba(27, 127, 102, .15);
+}
+
+;
+
+@mixin msb-bold-text {
+  font-weight: 500;
+}
+
+;
+$msb-bold-text-font-weight: 500;
+
+@mixin msb-italic-text {
+  font-style: italic;
+}
+
+;
+
+@mixin msb-active-form-text {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-active-form-text-font-size: 1rem;
+$msb-active-form-text-line-height: 1.5;
+$msb-active-form-text-font-weight: 400;
+
+@mixin msb-hint-form-text {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-hint-form-text-font-size: 1rem;
+$msb-hint-form-text-line-height: 1.5;
+$msb-hint-form-text-font-weight: 400;
+
+@mixin msb-disabled-form-text {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .38);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-disabled-form-text-font-size: 1rem;
+$msb-disabled-form-text-line-height: 1.5;
+$msb-disabled-form-text-font-weight: 400;
+
+@mixin msb-button-text {
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+;
+$msb-button-text-font-size: 1rem;
+$msb-button-text-line-height: 1.3;
+$msb-button-text-font-weight: 400;
+
+@mixin msb-anchor-link {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: #1374B4;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-anchor-link-font-size: 1rem;
+$msb-anchor-link-line-height: 1.5;
+$msb-anchor-link-font-weight: 400;
+
+@mixin msb-anchor-link-hover {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: #0F5D90;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-anchor-link-hover-font-size: 1rem;
+$msb-anchor-link-hover-line-height: 1.5;
+$msb-anchor-link-hover-font-weight: 400;
+
+@mixin msb-anchor-link-active {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: #549AC8;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-anchor-link-active-font-size: 1rem;
+$msb-anchor-link-active-line-height: 1.5;
+$msb-anchor-link-active-font-weight: 400;
+
+@mixin msb-anchor-link-visited {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color: #1374B4;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-anchor-link-visited-font-size: 1rem;
+$msb-anchor-link-visited-line-height: 1.5;
+$msb-anchor-link-visited-font-weight: 400;
+
+@mixin msb-code-text {
+  font-family: 'Roboto Mono';
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+;
+$msb-code-text-font-size: 1rem;
+$msb-code-text-line-height: 1.5;
+$msb-code-text-font-weight: 400;
+
+@mixin msb-nav-heading-on-light {
+  line-height: 1.2;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+;
+$msb-nav-heading-on-light-font-size: 1.25rem;
+$msb-nav-heading-on-light-line-height: 1.2;
+$msb-nav-heading-on-light-font-weight: 500;
+
+@mixin msb-nav-idle-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.72);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-nav-idle-on-light-font-size: 875rem;
+$msb-nav-idle-on-light-line-height: 1.125rem;
+$msb-nav-idle-on-light-font-weight: 400;
+
+@mixin msb-nav-selected-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .87);
+  font-weight: 700;
+  font-size: 875rem;
+}
+
+;
+$msb-nav-selected-on-light-font-size: 875rem;
+$msb-nav-selected-on-light-line-height: 1.125rem;
+$msb-nav-selected-on-light-font-weight: 700;
+
+@mixin msb-nav-disabled-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-nav-disabled-on-light-font-size: 875rem;
+$msb-nav-disabled-on-light-line-height: 1.125rem;
+$msb-nav-disabled-on-light-font-weight: 400;
+
+@mixin msb-nav-section-title-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.55);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-nav-section-title-on-light-font-size: 875rem;
+$msb-nav-section-title-on-light-line-height: 1.125rem;
+$msb-nav-section-title-on-light-font-weight: 400;
+
+@mixin msb-nav-heading-on-dark {
+  line-height: 1.2;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+;
+$msb-nav-heading-on-dark-font-size: 1.25rem;
+$msb-nav-heading-on-dark-line-height: 1.2;
+$msb-nav-heading-on-dark-font-weight: 500;
+
+@mixin msb-nav-idle-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, .82);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-nav-idle-on-dark-font-size: 875rem;
+$msb-nav-idle-on-dark-line-height: 1.125rem;
+$msb-nav-idle-on-dark-font-weight: 400;
+
+@mixin msb-nav-selected-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 875rem;
+}
+
+;
+$msb-nav-selected-on-dark-font-size: 875rem;
+$msb-nav-selected-on-dark-line-height: 1.125rem;
+$msb-nav-selected-on-dark-font-weight: 700;
+
+@mixin msb-nav-disabled-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.70);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-nav-disabled-on-dark-font-size: 875rem;
+$msb-nav-disabled-on-dark-line-height: 1.125rem;
+$msb-nav-disabled-on-dark-font-weight: 400;
+
+@mixin msb-nav-section-title-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.70);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-nav-section-title-on-dark-font-size: 875rem;
+$msb-nav-section-title-on-dark-line-height: 1.125rem;
+$msb-nav-section-title-on-dark-font-weight: 400;
+
+@mixin msb-metadata-high-emphasis {
+  line-height: 1.375;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-metadata-high-emphasis-font-size: 1rem;
+$msb-metadata-high-emphasis-line-height: 1.375;
+$msb-metadata-high-emphasis-font-weight: 400;
+
+@mixin msb-metadata-high-emphasis-on-dark {
+  line-height: 1.375;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-metadata-high-emphasis-on-dark-font-size: 1rem;
+$msb-metadata-high-emphasis-on-dark-line-height: 1.375;
+$msb-metadata-high-emphasis-on-dark-font-weight: 400;
+
+@mixin msb-metadata-mid-emphasis {
+  line-height: 1.375;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-metadata-mid-emphasis-font-size: 1rem;
+$msb-metadata-mid-emphasis-line-height: 1.375;
+$msb-metadata-mid-emphasis-font-weight: 400;
+
+@mixin msb-metadata-mid-emphasis-on-dark {
+  line-height: 1.375;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-metadata-mid-emphasis-on-dark-font-size: 1rem;
+$msb-metadata-mid-emphasis-on-dark-line-height: 1.375;
+$msb-metadata-mid-emphasis-on-dark-font-weight: 400;
+
+@mixin msb-metadata-low-emphasis {
+  line-height: 1.375;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-metadata-low-emphasis-font-size: 1rem;
+$msb-metadata-low-emphasis-line-height: 1.375;
+$msb-metadata-low-emphasis-font-weight: 400;
+
+@mixin msb-metadata-low-emphasis-on-dark {
+  line-height: 1.375;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-metadata-low-emphasis-on-dark-font-size: 1rem;
+$msb-metadata-low-emphasis-on-dark-line-height: 1.375;
+$msb-metadata-low-emphasis-on-dark-font-weight: 400;
+
+@mixin msb-metadata-disabled {
+  line-height: 1.375;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.38);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-metadata-disabled-font-size: 1rem;
+$msb-metadata-disabled-line-height: 1.375;
+$msb-metadata-disabled-font-weight: 400;
+
+@mixin msb-metadata-disabled-on-dark {
+  line-height: 1.375;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.38);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-metadata-disabled-on-dark-font-size: 1rem;
+$msb-metadata-disabled-on-dark-line-height: 1.375;
+$msb-metadata-disabled-on-dark-font-weight: 400;
+
+@mixin msb-metadata-small-high-emphasis {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-high-emphasis-font-size: 875rem;
+$msb-metadata-small-high-emphasis-line-height: 1.125rem;
+$msb-metadata-small-high-emphasis-font-weight: 400;
+
+@mixin msb-metadata-small-high-emphasis-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 500;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-high-emphasis-on-dark-font-size: 875rem;
+$msb-metadata-small-high-emphasis-on-dark-line-height: 1.125rem;
+$msb-metadata-small-high-emphasis-on-dark-font-weight: 500;
+
+@mixin msb-metadata-small-mid-emphasis {
+  line-height: 1.35;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-mid-emphasis-font-size: 875rem;
+$msb-metadata-small-mid-emphasis-line-height: 1.35;
+$msb-metadata-small-mid-emphasis-font-weight: 400;
+
+@mixin msb-metadata-small-mid-emphasis-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-mid-emphasis-on-dark-font-size: 875rem;
+$msb-metadata-small-mid-emphasis-on-dark-line-height: 1.125rem;
+$msb-metadata-small-mid-emphasis-on-dark-font-weight: 400;
+
+@mixin msb-metadata-small-low-emphasis {
+  line-height: 1.35;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-low-emphasis-font-size: 875rem;
+$msb-metadata-small-low-emphasis-line-height: 1.35;
+$msb-metadata-small-low-emphasis-font-weight: 400;
+
+@mixin msb-metadata-small-low-emphasis-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-low-emphasis-on-dark-font-size: 875rem;
+$msb-metadata-small-low-emphasis-on-dark-line-height: 1.125rem;
+$msb-metadata-small-low-emphasis-on-dark-font-weight: 400;
+
+@mixin msb-metadata-small-disabled {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.38);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-disabled-font-size: 875rem;
+$msb-metadata-small-disabled-line-height: 1.125rem;
+$msb-metadata-small-disabled-font-weight: 400;
+
+@mixin msb-metadata-small-disabled-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.38);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-disabled-on-dark-font-size: 875rem;
+$msb-metadata-small-disabled-on-dark-line-height: 1.125rem;
+$msb-metadata-small-disabled-on-dark-font-weight: 400;
+
+@mixin msb-metadata-small-important-text {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: #DC0C22;
+  opacity: 87;
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-important-text-font-size: 875rem;
+$msb-metadata-small-important-text-line-height: 1.125rem;
+$msb-metadata-small-important-text-font-weight: 400;
+
+@mixin msb-metadata-small-mid-emphasis-condensed-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 400;
+  font-size: 875rem;
+}
+
+;
+$msb-metadata-small-mid-emphasis-condensed-on-dark-font-size: 875rem;
+$msb-metadata-small-mid-emphasis-condensed-on-dark-line-height: 1.125rem;
+$msb-metadata-small-mid-emphasis-condensed-on-dark-font-weight: 400;
+
+@mixin msb-metadata-small-mid-emphasis-condensed-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: .875rem;
+}
+
+;
+$msb-metadata-small-mid-emphasis-condensed-on-light-font-size: 875rem;
+$msb-metadata-small-mid-emphasis-condensed-on-light-line-height: 1.125rem;
+$msb-metadata-small-mid-emphasis-condensed-on-light-font-weight: 400;
+
+@mixin msb-metadata-small-low-emphasis-condensed-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 400;
+  font-size: .875rem;
+}
+
+;
+$msb-metadata-small-low-emphasis-condensed-on-dark-font-size: 875rem;
+$msb-metadata-small-low-emphasis-condensed-on-dark-line-height: 1.125rem;
+$msb-metadata-small-low-emphasis-condensed-on-dark-font-weight: 400;
+
+@mixin msb-metadata-small-low-emphasis-condensed-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+  font-size: .875rem;
+
+}
+
+;
+$msb-metadata-small-low-emphasis-condensed-on-light-font-size: 875rem;
+$msb-metadata-small-low-emphasis-condensed-on-light-line-height: 1.125rem;
+$msb-metadata-small-low-emphasis-condensed-on-light-font-weight: 400;
+
+@mixin msb-button-text-enabled-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: #1374B4;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-button-text-enabled-on-light-font-size: 1rem;
+$msb-button-text-enabled-on-light-line-height: 1.125rem;
+$msb-button-text-enabled-on-light-font-weight: 400;
+
+@mixin msb-button-text-disabled-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .38);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-button-text-disabled-on-light-font-size: 1rem;
+$msb-button-text-disabled-on-light-line-height: 1.125rem;
+$msb-button-text-disabled-on-light-font-weight: 400;
+
+@mixin msb-button-text-large-enabled-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: #1374B4;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+;
+$msb-button-text-large-enabled-on-light-font-size: 1.125rem;
+$msb-button-text-large-enabled-on-light-line-height: 1.125rem;
+$msb-button-text-large-enabled-on-light-font-weight: 400;
+
+@mixin msb-button-text-large-disabled-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, .38);
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+;
+$msb-button-text-large-disabled-on-light-font-size: 1.125rem;
+$msb-button-text-large-disabled-on-light-line-height: 1.125rem;
+$msb-button-text-large-disabled-on-light-font-weight: 400;
+
+@mixin msb-button-text-enabled-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-button-text-enabled-on-dark-font-size: 1rem;
+$msb-button-text-enabled-on-dark-line-height: 1.125rem;
+$msb-button-text-enabled-on-dark-font-weight: 400;
+
+@mixin msb-button-text-disabled-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, .38);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-button-text-disabled-on-dark-font-size: 1rem;
+$msb-button-text-disabled-on-dark-line-height: 1.125rem;
+$msb-button-text-disabled-on-dark-font-weight: 400;
+
+@mixin msb-button-text-large-enabled-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+;
+$msb-button-text-large-enabled-on-dark-font-size: 1.125rem;
+$msb-button-text-large-enabled-on-dark-line-height: 1.125rem;
+$msb-button-text-large-enabled-on-dark-font-weight: 400;
+
+@mixin msb-button-text-large-disabled-on-dark {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, .38);
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+;
+$msb-button-text-large-disabled-on-dark-font-size: 1.125rem;
+$msb-button-text-large-disabled-on-dark-line-height: 1.125rem;
+$msb-button-text-large-disabled-on-dark-font-weight: 400;
+
+@mixin msb-button-text-monochrome-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+;
+$msb-button-text-monochrome-on-light-font-size: 1rem;
+$msb-button-text-monochrome-on-light-line-height: 1.125rem;
+$msb-button-text-monochrome-on-light-font-weight: 400;
+
+@mixin msb-button-text-large-monochrome-on-light {
+  line-height: 1.125rem;
+  font-family: 'Roboto';
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+;
+$msb-button-text-large-monochrome-on-light-font-size: 1.125rem;
+$msb-button-text-large-monochrome-on-light-line-height: 1.125rem;
+$msb-button-text-large-monochrome-on-light-font-weight: 400;
+$msb-font-family: 'Roboto';
+$msb-font-family-roboto-condensed: 'Roboto Condensed',
+sans-serif;
+$msb-font-family-mono: 'Roboto Mono';
+$msb-line-height-reading: 1.5;
+$msb-line-height-tight: 1.3;
+$msb-font-weight-light: 300;
+$msb-font-weight-regular: 400;
+$msb-font-weight-medium: 500;
+$msb-font-weight-heavy: 700;
+$msb-font-weight-black: 900;
+$msb-text-low-emphasis: 0.55;
+$msb-text-normal-emphasis: 87;
+$msb-text-disabled-emphasis: 38;
+$msb-text-marked-opacity: 15;
+$msb-font-style-italic: italic;
+$msb-font-style-normal: normal;
+$msb-text-size-1: 875rem;
+$msb-text-size-2: 1rem;
+$msb-text-size-3: 1.125rem;
+$msb-text-size-4: 1.25rem;
+$msb-text-size-5: 1.4375rem;
+$msb-text-size-6: 1.625rem;
+$msb-text-size-7: 2rem;
+$msb-text-size-8: 2.5625rem;
+$msb-text-size-9: 3.1875rem;
+
+//NEW VARIABLES; to do research where kept in dls
+
+$msb-radius: 6px;
+
+//padding
+$msb-padding-xxs: 2px;
+$msb-padding-xs: 4px;
+$msb-padding-s: 8px;
+$msb-padding-m: 16px; //default
+$msb-padding-l: 24px;
+$msb-padding-xl: 32px;
+$msb-padding-xxl: 48px;
+
+//animations & transitions
+$msb-transition: all .3s ease;
+
+//global vars ????
+:root {
+  --color-brand-1: #{$msb-secondary};
+}

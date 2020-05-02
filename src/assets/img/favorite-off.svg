@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>Icons / Utility / favorite-off</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Utility-/-favorite-off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M16.5,3 C19.58,3 22,5.42 22,8.5 C22,12.28 18.6,15.36 13.45,20.03 L13.45,20.03 L13.3132741,20.1437198 C12.5135347,20.7508252 11.3063233,20.723299 10.55,20.04 L10.55,20.04 L10.2092774,19.7303451 C5.2505679,15.2227654 2,12.196 2,8.5 C2,5.42 4.42,3 7.5,3 C9.24,3 10.91,3.81 12,5.09 C13.09,3.81 14.76,3 16.5,3 Z M16.5,5 C14.96,5 13.46,5.99 12.94,7.36 L12.94,7.36 C12.78881,7.73433714 12.4254294,8 12,8 C11.5587566,8 11.1842608,7.71421977 11.0515069,7.31765369 C10.5088692,5.9695631 9.02402174,5 7.5,5 C5.5,5 4,6.5 4,8.5 C4,11.39 7.14,14.24 11.9,18.55 L11.9,18.55 L12,18.65 L12.1,18.55 C16.86,14.24 20,11.39 20,8.5 C20,6.5 18.5,5 16.5,5 Z" id="Icon-Color" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>
