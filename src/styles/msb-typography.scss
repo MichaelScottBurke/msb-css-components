@@ -10,14 +10,22 @@ h2 {
   @include msb-standard-heading-2();
 }
 h3 {
-
+  @include msb-standard-heading-3();
 }
 h4 {
-
+  @include msb-standard-heading-4();
 }
 h5 {
 
 }
 h6 {
 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  m
+  + p {
+    margin-top: -8px;
+    @include msb-metadata-low-emphasis();
+  }
 }

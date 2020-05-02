@@ -134,7 +134,7 @@
 
 //default button style to apply everywhere
 input[type="button"],[type="submit"] {
-  /@include msb-button-medium-mid-emphasis-mixin();
+  //@include msb-button-medium-mid-emphasis-mixin();
 &.msb-button-large-high-emphasis {
   @include msb-button-large-high-emphasis-mixin();
 }
