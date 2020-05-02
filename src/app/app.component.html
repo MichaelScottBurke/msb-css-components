@@ -15,9 +15,57 @@
 		<p>CSS-only styling to elevate html standard markup elements</p>
 		<h2>All html elements</h2>
 		<p>Kitchen sink of all css styled html tags</p>
+<h2>Buttons and links</h2>
+<section class="msb-example-panel">
+  <div class="msb-example-page">
+    <h2>Buttons</h2>
+    <h3>Default</h3>
+    <p>
+      Set mid-emphasis styling to apply to all existing, non-image button
+      elements by default
+    </p>
     <section>
-      this
+      <div>
+        <input type="button" value="Enabled" /><input disabled="" type="button" value="Disabled" />
+      </div>
     </section>
+    <h3>Button mixins</h3>
+    <p>
+      Apply to existing (legacy) css classes. Replace style properties
+      inexisting css class with mixin to override; careful to not replace
+      contextual, layout styles only button styling
+    </p>
+    <section>
+      <h4>Medium</h4>
+      <section>
+        <input class="legacyButtonMediumClassHighEmphasis" type="button" value="High emphasis" /><input
+          class="legacyButtonMediumClassMidEmphasis" type="button" value="Mid emphasis" /><input
+          class="legacyButtonMediumClassLowEmphasis" type="button" value="Low emphasis" /><input
+          class="legacyButtonMediumClassDisabled" disabled="" type="button" value="Disabled" />
+      </section>
+      <h4>Large</h4>
+      <section>
+        <input class="legacyButtonLargeClassHighEmphasis" type="button" value="High emphasis" /><input
+          class="legacyButtonLargeClassMidEmphasis" type="button" value="Mid emphasis" /><input
+          class="legacyButtonLargeClassLowEmphasis" type="button" value="Low emphasis" /><input
+          class="legacyButtonLargeClassDisabled" disabled="" type="button" value="Disabled" />
+      </section>
+    </section>
+    <h3>CSS button classes</h3>
+    <p>
+      Apply to new or problementatic, existing elements on legacy pages
+    </p>
+    <h3>Example</h3>
+    <p>Preferred form styling</p>
+    <section>
+      <div>
+        <input class="msb-button-medium-high-emphasis" type="button" value="Save" /><input type="button"
+          value="Cancel" /><input class="msb-button-low-emphasis" type="button" value="Delete" /><input disabled=""
+          type="button" value="Disabled" />
+      </div>
+    </section>
+  </div>
+</section>
     
 
 
