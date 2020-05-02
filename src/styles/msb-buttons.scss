@@ -1,7 +1,7 @@
 @import "./msb-variables.scss";
 /* BUTTONS */
 /* common */
-$msb-button-background-disabled: rgba(0, 0, 0, 0.03);
+
 
 /* Buttons: high-emphasis */
 /* Large */
@@ -29,7 +29,7 @@ $msb-button-background-disabled: rgba(0, 0, 0, 0.03);
 @mixin msb-button-large-high-emphasis-disabled {
 	@include msb-button-large;
 	@include msb-button-text-large-disabled-on-light;
-	background: $msb-button-background-disabled;
+	background: $msb-surface-disabled-on-light;
 }
 
 /* Small */
@@ -139,14 +139,14 @@ $msb-button-background-disabled: rgba(0, 0, 0, 0.03);
   @mixin  msb-button-large-low-emphasis-mixin(){
 
   }
-
+//default button style
   input[type="button"],[type="submit"] {
     @include msb-button-medium-mid-emphasis-mixin();
     &:hover {
-
+      background-color: $msb-hover-on-light;
     }
     &[disabled] {
-      background-color: $msb-button-background-disabled;
+      background-color: $$msb-surface-disabled-on-light;
       border: none;
       @include msb-button-text-disabled-on-light();
     }
