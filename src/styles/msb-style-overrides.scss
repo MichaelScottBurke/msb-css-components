@@ -1,29 +1,34 @@
 @import "./msb-variables.scss";
 @import "./msb-buttons.scss";
 
-
-.legacyButtonMediumClassHighEmphasis {
-  @include msb-button-medium-high-emphasis-mixin();
-}
-.legacyButtonMediumClassMidEmphasis {
+input[type="button"],[type="submit"] {
+  //default
   @include msb-button-medium-mid-emphasis-mixin();
-}
-.legacyButtonMediumClassLowEmphasis {
-  @include msb-button-medium-low-emphasis-mixin();
-}
-.legacyButtonMediumClassDisabled {
-  @include msb-button-medium-low-emphasis-mixin();
-}
 
-.legacyButtonLargeClassHighEmphasis {
-  @include msb-button-large-high-emphasis-mixin();
-}
-.legacyButtonLargeClassMidEmphasis {
-  @include msb-button-large-mid-emphasis-mixin();
-}
-.legacyButtonLargeClassLowEmphasis {
-  @include msb-button-large-low-emphasis-mixin();
-}
-.legacyButtonLargeClassDisabled {
-  @include msb-button-large-low-emphasis-mixin();
+  //specific classes mapped to legacy css styles
+  &.legacyButtonMediumClassHighEmphasis {
+    @include msb-button-medium-high-emphasis-mixin();
+  }
+  &.legacyButtonMediumClassMidEmphasis {
+    @include msb-button-medium-mid-emphasis-mixin();
+  }
+  &.legacyButtonMediumClassLowEmphasis {
+    @include msb-button-medium-low-emphasis-mixin();
+  }
+  &.legacyButtonMediumClassDisabled {
+    @include msb-button-medium-low-emphasis-mixin();
+  }
+
+  &.legacyButtonLargeClassHighEmphasis {
+    @include msb-button-large-high-emphasis-mixin();
+  }
+  &.legacyButtonLargeClassMidEmphasis {
+    @include msb-button-large-mid-emphasis-mixin();
+  }
+  &.legacyButtonLargeClassLowEmphasis {
+    @include msb-button-large-low-emphasis-mixin();
+  }
+  &.legacyButtonLargeClassDisabled {
+    @include msb-button-large-low-emphasis-mixin();
+  }
 }
