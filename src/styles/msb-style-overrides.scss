@@ -6,19 +6,6 @@ input[type="button"],[type="submit"] {
   @include msb-button-medium-mid-emphasis-mixin();
 
   //specific classes mapped to legacy css styles
-  //small
-  &.legacyButtonSmallClassHighEmphasis {
-    @include msb-button-small-high-emphasis-mixin();
-  }
-  &.legacyButtonSmallClassMidEmphasis {
-    @include msb-button-small-mid-emphasis-mixin();
-  }
-  &.legacyButtonSmallClassLowEmphasis {
-    @include msb-button-small-low-emphasis-mixin();
-  }
-  &.legacyButtonSmallClassDisabled {
-    @include msb-button-small-low-emphasis-mixin();
-  }
   //medium
   &.legacyButtonMediumClassHighEmphasis {
     @include msb-button-medium-high-emphasis-mixin();
