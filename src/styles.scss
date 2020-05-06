@@ -8,14 +8,15 @@
 //html element 'components'
 @import "./styles/msb-app-bar.scss";
 @import "./styles/msb-buttons.scss";
-@import "./styles/msb-inputs.scss";
+
 @import "./styles/msb-radio-buttons.scss";
 @import "./styles/msb-toolbars.scss";
 @import "./styles/msb-menu.scss";
 @import "./styles/msb-popover.scss";
 @import "./styles/msb-data-table.scss";
 
-@import "./styles/css-cmsb-inputs.scss";
+@import "./styles/css-components/inputs.scss";
+
 
 //page layouts
 @import "./styles/msb-layout-basic.scss";
@@ -23,6 +24,7 @@
 
 //example override styles
 @import "./styles/msb-style-overrides.scss";
+@import "./styles/css-overrides/text-field-overrides.scss";
 
 * {
   font-family: "Roboto";
