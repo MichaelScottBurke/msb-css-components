@@ -12,6 +12,10 @@
   &:not(:last-child) {
     margin-right: 8px;
   }
+  &:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2px $msb-focus-border-on-light;
+  }
   &[disabled] {
     background-color: $msb-surface-disabled-on-light;
     border: none;
