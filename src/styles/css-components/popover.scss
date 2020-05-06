@@ -1,0 +1,13 @@
+@import './../msb-variables.scss';
+
+@mixin msb-popover-background-mixin() {
+  background: $msb-surface-light;
+  box-shadow: $msb-elevation-08;
+  border-radius: $msb-radius;
+  padding: $msb-padding-m;
+  //width set by context for now
+}
+
+.msb-popover {
+  @include msb-popover-background-mixin();
+}
