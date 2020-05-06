@@ -257,6 +257,147 @@
   </section>
   </div>
 </section>
+<section class="msb-example-panel">
+  <div class="msb-example-page">
+    <section>
+    <h2>Selection controls</h2>
+    <p>Checkboxes, radio buttons, switches</p>
+    <h3>Checkboxes</h3>
+    <p>Html input type="checkbox" does not provide many css style override options. This example sets the visibility of
+      the input to 0 (so that it is still accessible) and then uses svg icons to replace with material-like checkboxes
+    </p>
+    <h3>Radio buttons</h3>
+    <p>Html input type="radio" does not provide many css style override options. This example sets the visibility of
+      the input to 0 (so that it is still accessible) and then uses svg icons to replace with material-like radio
+      buttons</p>
+    <section>
+      <fieldset>
+        <legend>Radio button group one</legend>
+        <fieldset>
+          <input type="radio" id="radio1" name="radiogroup1" value="radio1">
+          <label for="radio1">One</label><br>
+        </fieldset>
+        <fieldset>
+          <input type="radio" id="radio2" name="radiogroup1" value="radio2">
+          <label for="radio2">Two</label>
+        </fieldset>
+        <fieldset>
+          <input type="radio" id="radio3" name="radiogroup1" value="radio3">
+          <label for="radio3">Three</label>
+        </fieldset>
+      </fieldset>
+    </section>
+    </section>
+  </div>
+</section>
+<h2>Legacy form emulation</h2>
+    <section class="msb-example-panel">
+      <form class="msb-example-page">
+        <div class="twoColL">
+          <table>
+            <tr>
+              <td>Label</td>
+              <td><input type="text" /></td>
+            </tr>
+          </table>
+        </div>
+      </form>
+    </section>
 
+    <h2>Icons & images</h2>
+    <section class="msb-example-panel">
+      <div class="msb-example-page">
+        <h3>Background SVG's</h3>
+        <i class="" title="save"></i>
+        <input type="image" title="save">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="save">
+
+        <h3>Images, icons & icon buttons</h3>
+        <p>Study in how to override an existing image with a new svg one by placing a transparent image. and
+          replacing
+          it with an svg background image. (note: stackblitz doesn't allow image formats other than svgs so encoding
+          a
+          gif as data for this example.</p>
+        <div>
+          <img alt="save" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+        </div>
+        <div>
+          <input type="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+        </div>
+
+        <h3>::before & ::after SVG's</h3>
+
+
+      </div>
+    </section>
+
+    <h2>Complex form example</h2>
+    <section>
+
+    </section>
+
+    <h2>Menu</h2>
+    <section class="msb-example-panel">
+      <div class="msb-menu">
+        <ul>
+          <li *ngFor="let i of menuItems">{{ i.label }}</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <h2>Popover</h2>
+    <section class="msb-example-panel">
+      <div class="msb-popover">
+        this
+      </div>
+      <ul class="msb-menu">
+        <li *ngFor="let i of menuItems"><a href="{{ i.link }}">{{ i.label }}</a></li>
+      </ul>
+
+    </section>
+
+
+    <h2>Data tables</h2>
+    <section class="msb-example-panel">
+      <div class="msb-example-page">
+        <table class="msb-data-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Job</th>
+              <th>Phone</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Carolina Biggleswade</td>
+              <td>23</td>
+              <td>65</td>
+              <td>Jockey</td>
+            </tr>
+            <tr>
+              <td>Harry Sparrowhead</td>
+              <td>34</td>
+              <td>89</td>
+              <td>Trainer</td>
+            </tr>
+            <tr>
+              <td>Marjorie Doors</td>
+              <td>32</td>
+              <td>76</td>
+              <td>Yard Manager</td>
+            </tr>
+            <tr>
+              <td>Earnest Piggington-Smithe</td>
+              <td>18</td>
+              <td>98</td>
+              <td>Groom</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
 </main>

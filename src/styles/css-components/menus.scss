@@ -1,4 +1,4 @@
-@import "./msb-variables.scss";
+@import "./../msb-variables.scss";
 @import "./popovers.scss";
 .msb-menu {
   @include msb-popover-background-mixin();
