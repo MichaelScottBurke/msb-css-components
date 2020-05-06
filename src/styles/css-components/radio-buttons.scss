@@ -1,0 +1,79 @@
+@import "./../msb-variables";
+@import "./../msb-icons";
+$msb-icon-default: rgba(0,0,0,.60);
+$msb-transition: all .3s ease;
+$img-url: './../../assets/img/';
+$ripple-opacity: .15;
+$ripple-opacity-active: .25;
+
+input[type="radio"], input[type="radio"]:checked {
+  opacity: 0;
+  + label[for] {
+    margin-left: -8px;
+    &::before {
+      cursor: pointer;
+      float: left;
+      width: 24px;
+      height: 24px;
+      margin: 0;
+      content: " ";
+      //background-image: url(#{$img-url}radio-off.svg);
+       -webkit-mask-image:  url(#{$img-url}radio-off.svg);
+      mask-image:  url(#{$img-url}radio-off.svg);
+      background-color: $msb-icon-default;
+      //transition: $msb-transition;
+      box-shadow: 0 0 0 0px transparent;
+      border-radius: 50%;
+    }
+    &::after { 
+      box-shadow: 0 0 0 10px transparent;
+            border-radius: 50%;
+            float: left;
+            background-color: transparent;
+      width: 24px;
+      height: 24px;
+      margin: 0px 0 0 -24px;
+      content: " ";
+    }
+    
+      &:active::after {
+      box-shadow: 0 0 0 10px rgba($msb-secondary, $ripple-opacity-active);
+      background-color: rgba($msb-secondary, $ripple-opacity-active);
+    }
+      &:hover::after {
+      transition: all .3s ease-in;
+      box-shadow: 0 0 0 10px rgba($msb-secondary, $ripple-opacity);
+      background-color: rgba($msb-secondary, $ripple-opacity);
+  }
+  }
+
+  &:checked {
+    + label[for] {
+      &::before {
+      background-color: $msb-secondary;
+      -webkit-mask-image:  url(#{$img-url}radio-on.svg);
+      mask-image:  url(#{$img-url}radio-on.svg);
+      }
+    }
+    &:focus {
+      +label::after {
+      transition: all .3s ease-in;
+      box-shadow: 0 0 0 10px rgba($msb-secondary, $ripple-opacity-active);
+      background-color: rgba($msb-secondary, $ripple-opacity-active);
+  }
+    }
+  }
+}
+
+input[type="radio"]:focus  {
+  +label::after {
+      transition: all .3s ease-in;
+      box-shadow: 0 0 0 10px rgba($msb-secondary, $ripple-opacity-active);
+      background-color: rgba($msb-secondary, $ripple-opacity-active);
+  }
+  &:checked {
+        transition: all .3s ease-in;
+      box-shadow: 0 0 0 10px rgba($msb-secondary, $ripple-opacity-active);
+      background-color: rgba($msb-secondary, $ripple-opacity-active);
+  }
+}
