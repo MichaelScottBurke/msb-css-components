@@ -5,14 +5,14 @@
 @import "./styles/msb-variables.scss";
 @import "./styles/msb-typography.scss";
 
-@import "./styles/css-components/app-bars.scss";
-@import "./styles/css-components/buttons.scss";
-@import "./styles/css-components/data-tables.scss";
-@import "./styles/css-components/inputs.scss";
-@import "./styles/css-components/menus.scss";
-@import "./styles/css-components/popovers.scss";
-@import "./styles/css-components/radio-buttons.scss";
-@import "./styles/css-components/toolbars.scss";
+@import "./styles/components/app-bars.scss";
+@import "./styles/components/buttons.scss";
+@import "./styles/components/data-tables.scss";
+@import "./styles/components/inputs.scss";
+@import "./styles/components/menus.scss";
+@import "./styles/components/popovers.scss";
+@import "./styles/components/radio-buttons.scss";
+@import "./styles/components/toolbars.scss";
 
 //page layouts
 @import "./styles/msb-layout-basic.scss";
