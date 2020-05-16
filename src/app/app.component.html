@@ -1,18 +1,35 @@
+<div class="msb-basic-layout">
+<nav>
+  this is the side nav
+</nav>
+<div class="msb-content">
 <header fixed="true">
 		<!--
   <input class="msb-menu" src="./../assets/img/menu-main.svg" type="image" title="menu">
   -->
 		<h1>Ambience système</h1>
-	</header>
-<main>
-<h2>Web components</h2>
+</header>
+<main class="msb-document-layout">
 <p>Standard markup and 'css component' styles and mixins to progressively elevate your code without the overhead</p>
-<h2>Buttons</h2>
 
+<!--
+******************* ACCORDIONS *************************
+-->
+<h2 id="accordion-section" name="accordion-section">Accordions</h2>
+<section></section>
+
+<!--
+******************* APP BARS *************************
+-->
+
+<h2 id="app-bar-section" name="app-bar-section">App bars</h2>
+<section></section>
 
 <!--
 ******************* BUTTONS *************************
 -->
+<h2 id="button-section" name="button-section">Buttons</h2>
+<section></section>
 <section class="msb-example-panel">
   <div class="msb-example-page">
     <h1>Buttons</h1>
@@ -73,6 +90,90 @@
     </section>
   </div>
 </section>
+
+<!--
+******************* CARDS *************************
+-->
+<h2 id="card-section" name="card-section">Dialogs</h2>
+<section></section>
+
+<!--
+******************* CHECKBOXES *************************
+-->
+<h2 id="checkbox-section" name="checkbox-section">Dialogs</h2>
+<section></section>
+
+
+
+<!--
+******************* CHIPS *************************
+-->
+<h2 id="dialog-section" name="dialog-section">Dialogs</h2>
+<section></section>
+
+
+<!--
+******************* DATA TABLES *************************
+-->
+<h2 id="data-tables-section" name="data-tables-section">Data tables</h2>
+    <section class="msb-example-panel">
+      <div class="msb-example-page">
+        <table class="msb-data-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Job</th>
+              <th>Phone</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Carolina Biggleswade</td>
+              <td>23</td>
+              <td>65</td>
+              <td>Jockey</td>
+            </tr>
+            <tr>
+              <td>Harry Sparrowhead</td>
+              <td>34</td>
+              <td>89</td>
+              <td>Trainer</td>
+            </tr>
+            <tr>
+              <td>Marjorie Doors</td>
+              <td>32</td>
+              <td>76</td>
+              <td>Yard Manager</td>
+            </tr>
+            <tr>
+              <td>Earnest Piggington-Smithe</td>
+              <td>18</td>
+              <td>98</td>
+              <td>Groom</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+<!--
+******************* DIALOGS *************************
+-->
+<h2 id="dialog-section" name="dialog-section">Dialogs</h2>
+<section></section>
+
+<!--
+******************* EXPANSION PANELS *******************
+-->
+<h2 id="expansion-panel-section" name="expansion-panel-section">Expansion panels</h2>
+<section></section>
+
+<!--
+******************* ICONS *************************
+-->
+<h2 id="icon-section" name="icon-section">Icons</h2>
+<section></section>
 
 <!--
 ******************* INPUTS *************************
@@ -338,17 +439,30 @@
 
     </section>
 
-    <h2>Menu</h2>
-    <section class="msb-example-panel">
-      <div class="msb-menu">
-        <ul>
-          <li *ngFor="let i of menuItems">{{ i.label }}</li>
-        </ul>
-      </div>
 
-    </section>
+<!--
+******************* MENUS *************************
+-->
+<h2 id="menu-section" name="menu-section">Menus</h2>
+  <section class="msb-example-panel">
+    <div class="msb-menu">
+      <ul>
+        <li *ngFor="let i of menuItems">{{ i.label }}</li>
+      </ul>
+    </div>
+  </section>
 
-    <h2>Popover</h2>
+
+<!--
+******************* MODALS *************************
+-->
+<h2 id="modal-section" name="modal-section">Modals</h2>
+<section></section>
+
+<!--
+******************* POPOVERS *************************
+-->
+<h2 id="popover-section" name="popover-section">Popovers</h2>
     <section class="msb-example-panel">
       <div class="msb-popover">
         this
@@ -359,47 +473,28 @@
 
     </section>
 
+<!--
+******************* RADIO BUTTONS *************************
+-->
+<h2 id="radio-button-section" name="radio-button-section">Radio buttons</h2>
+<section></section>
 
-    <h2>Data tables</h2>
-    <section class="msb-example-panel">
-      <div class="msb-example-page">
-        <table class="msb-data-table">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Job</th>
-              <th>Phone</th>
-              <th>Email</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Carolina Biggleswade</td>
-              <td>23</td>
-              <td>65</td>
-              <td>Jockey</td>
-            </tr>
-            <tr>
-              <td>Harry Sparrowhead</td>
-              <td>34</td>
-              <td>89</td>
-              <td>Trainer</td>
-            </tr>
-            <tr>
-              <td>Marjorie Doors</td>
-              <td>32</td>
-              <td>76</td>
-              <td>Yard Manager</td>
-            </tr>
-            <tr>
-              <td>Earnest Piggington-Smithe</td>
-              <td>18</td>
-              <td>98</td>
-              <td>Groom</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+<!--
+******************* TABS *************************
+-->
+<h2 id="tab-section" name="tab-section">Tabs</h2>
+<section></section>
+
+<!--
+******************* TOOLBARS *************************
+-->
+
+
+
 
 </main>
+<footer>
+  This is the footer
+</footer>
+</div>
+</div>
