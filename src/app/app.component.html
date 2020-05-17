@@ -5,6 +5,7 @@
 <div class="msb-body">
   <nav class="msb-nav">
     <ul>
+      <li *ngFor="let i of navItems"><a href="'#'+i.label">{{ i.link }}</a></li>
       <li><a href="#section-1-heading">Section one</a></li>
       <li><a href="#section-2-heading">Section two</a></li>
       <li><a href="#section-3-heading">Section three</a></li>
