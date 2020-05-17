@@ -1,5 +1,9 @@
 @import "./msb-variables.scss";
 
+html {
+  font-size: 100%;
+}
+
 body, p {
   @include msb-body-text();
 }

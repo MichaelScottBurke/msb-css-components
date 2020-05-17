@@ -2,6 +2,7 @@
 @import "./../msb-utility-styles.scss";
 
 /* Top app bar */
+/*
 .msb-app-bar {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -37,4 +38,21 @@
     }
   }
 }
+*/
 
+.msb-app-bar {
+  width: 100%;
+  background-color: $msb-primary;
+  @include msb-primary;
+  h1 {
+   @include msb-nav-heading-on-dark();
+  }
+  @media only screen and (max-width: 599px) {
+    height: 3.5rem;
+    padding: 1rem;
+  }
+    @media only screen and (min-width: 600px) {
+    height: 4rem;
+    padding: 1.25rem;
+  }
+}
