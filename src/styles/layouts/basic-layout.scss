@@ -109,7 +109,7 @@ body {
 footer {
   @include msb-metadata-small-low-emphasis;
   //background-color: $msb-surface-light;
-  padding: 1rem;
+  padding: 1rem 0;
   .copyright {
     font-size: 85%;
   }

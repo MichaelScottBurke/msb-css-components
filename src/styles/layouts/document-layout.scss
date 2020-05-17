@@ -1,0 +1,40 @@
+@import "./../msb-variables.scss";
+
+.msb-doc-layout {
+//make component?
+.msb-empty-section {
+  border-left: 4px solid rgba($msb-primary, .35);
+  background-color: rgba($msb-surface-light-darker, .75);
+  padding: 1rem 1rem 1rem 1.75rem;
+  @include msb-metadata-small-low-emphasis;
+}
+
+/*
+//
+//
+.msb-example-panel {
+	background: $msb-surface-light-darker;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: $msb-radius;
+	padding: 24px;
+}
+//
+.msb-example-page {
+	background: $msb-surface-light;
+	box-shadow: $msb-elevation-08;
+	padding: 16px;
+}
+
+*/
+
+h2 {
+  @include msb-display-small;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  + p, p:first-child {
+    margin-top: -8px;
+    @include msb-metadata-low-emphasis();
+  }
+}
+}

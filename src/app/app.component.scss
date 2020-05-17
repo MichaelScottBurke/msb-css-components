@@ -1,3 +1,5 @@
+@import './../styles/layouts/document-layout';
+
 
 
 //hide existing image by replacing???? needs more research could replace all gifs with blank //pixel and replace via css
@@ -8,6 +10,7 @@ input[src*="account.svg"] {
     content:url("http://imgur.com/SZ8Cm.jpg");
 }
 
+//use style for IE 11 radio buttons?
 .msb-double-border {
   border-color: #f06d06;
   padding: 3px;
