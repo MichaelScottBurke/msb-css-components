@@ -6,20 +6,35 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.scss' ]
 })
 export class AppComponent  {
+  navItems = [
+    {
+      label: 'Accordions',
+      link: 'accordion'
+    },
+        {
+      label: 'App bars',
+      link: 'app-bar'
+    },
+        {
+      label: 'Buttons',
+      link: 'butto'
+    }
+  ];
+
 
   menuItems = [
     {
       label: 'Item one',
-      link: 'javascript: void();'
+      link: 'javascript: void(0);'
     },
         {
       label: 'Item two',
-      link: 'javascript: void();'
+      link: 'javascript: void(0);'
     },
         {
       label: 'Item three',
-      link: 'javascript: void();'
+      link: 'javascript: void(0);'
     }
-  ]
+  ];
 
 }
