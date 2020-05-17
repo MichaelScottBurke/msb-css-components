@@ -45,6 +45,8 @@
   background-color: $msb-primary;
   @include msb-primary;
   h1 {
+    padding: 0;
+    margin: 0;
    @include msb-nav-heading-on-dark();
   }
   @media only screen and (max-width: 599px) {
