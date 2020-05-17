@@ -2,7 +2,7 @@
 @import "./../msb-utility-styles.scss";
 
 /* Top app bar */
-header {
+.msb-app-bar {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -37,3 +37,4 @@ header {
     }
   }
 }
+
