@@ -1,37 +1,57 @@
 body {
   height: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
+  /*
+  height: 100%;
+  width: 100%;
   position: absolute;
   padding: 0;
   margin: 0;
+  */
 }
 
 .msb-basic-layout{
+  /*
   display: flex;
   flex-flow: column;
   min-height: 100%;
+  */
 }
 
-.msb-content-container {
+.msb-body {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  /*
   width: 100%;
   display: flex;
   flex-direction: row;
   flex: 1;
   align-items: stretch;
+  padding-top: 56px;
+  */
 }
 
 .msb-nav {
+  //move to component: nav items
   max-width: 256px;
   padding: 1rem .5rem 0 0;
   @include msb-surface-dark-darker;
   ul {
-
   }
+  //move to component: nav items
   li {
     height: 44px;
+    /*
     &:not(:last-child) {
       margin-bottom: .5rem;
     }
+    */
     a {
     @include msb-nav-idle-on-dark;
     padding: .5rem 1.5rem .5rem 1rem;
@@ -59,23 +79,37 @@ body {
 }
 
 .msb-main {
+  /*
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   background-color: $msb-surface-light;
+    overflow: scroll;
+    */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   
 }
 .msb-main-content {
+  /*
   flex: 1;
   background-color: $msb-surface-light;
+  padding: 1.5rem;
+  overflow: hidden;
+  */
+  flex: 1;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
   padding: 1.5rem;
 }
 
 footer {
   @include msb-metadata-small-low-emphasis;
-  background-color: $msb-surface-light;
-  padding: 1rem 1.5rem;
+  //background-color: $msb-surface-light;
+  padding: 1rem;
   .copyright {
     font-size: 85%;
   }
