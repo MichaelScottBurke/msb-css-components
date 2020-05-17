@@ -1,7 +1,8 @@
+section form {
 fieldset, div, p {
 	/* for fieldset */
 	position: relative;
-	margin-bottom: 16px;
+	//margin-bottom: 16px;
 	/* input */
   > input[type="date"],
 	> input[type="text"],
@@ -87,4 +88,5 @@ select {
 }
 select[value="0"] {
 	color: rgba(0, 0, 0, 0.6);
+}
 }
