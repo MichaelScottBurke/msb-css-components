@@ -17,7 +17,15 @@ export class AppComponent  {
     },
         {
       label: 'Buttons',
-      link: 'butto'
+      link: 'button'
+    },
+            {
+      label: 'Cards',
+      link: 'card'
+    },
+                {
+      label: 'Containers',
+      link: 'container'
     }
   ];
 
