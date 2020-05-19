@@ -1,0 +1,128 @@
+@import "./../msb-variables.scss";
+@import "./buttons.scss";
+$i-url: "./../assets/img/";
+
+
+//BANNER MIXINS
+//banner common styles
+@mixin msb-banner(){
+  //container
+  background-color:  $msb-surface-light-darker;
+  background-image: none;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 1rem 3.5rem;
+  box-sizing: border-box;
+  @include msb-metadata-mid-emphasis();
+  //icon
+  &::before {
+    float: left;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 1rem 0 -2.5rem;
+    content: " ";
+  }
+  //heading
+  h3, h3>label {
+    @include msb-standard-heading-5();
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+  //content
+  ul {
+    margin-left: 0;  
+    //tint bullet
+    li::before {
+      content: "\2022";  
+      color: rgba(0,0,0,.70); 
+      font-weight: bold;
+      display: inline-block; 
+      width: 1.5rem;
+      margin-left: -1rem;
+  }
+  li {
+      list-style-type: none;
+      margin-left: 1rem;
+      // if only 1 li don't use bullet
+      &:only-of-type {
+        margin-left: 0;
+        &::before {
+          content: "";  
+          margin-left: 0;
+          display: none;
+        }
+      }
+      //buttons in ul
+      +input[type='button'] {
+        @include msb-button-medium-mid-emphasis-mixin();
+        margin-top: 8px;
+        margin-bottom: 0;
+        margin-left: -16px;
+      }
+    }
+  }
+}
+
+//IE 11 support mixin
+@mixin msb-banner-IE11() {
+    background-repeat: no-repeat;
+    background-position: 1rem 1rem;
+    &::before {background-color: transparent !important};
+}
+
+//error
+@mixin msb-error-banner(){
+  @include msb-banner();
+  &::before {
+    -webkit-mask-image:  url(#{$image-url}warning.svg);
+    mask-image:  url(#{$image-url}warning.svg);
+    background-color: $msb-error;
+  }
+  //IE 11 support (no masks, no color external svgs)
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    background-image: url(#{$image-url}icon_error.png);
+    @include msb-banner-IE11();
+  }
+}
+//warning; also applies to future dated
+@mixin msb-warning-banner(){
+  @include msb-banner();
+  &::before {
+    -webkit-mask-image:  url(#{$image-url}warning-outline.svg);
+    mask-image:  url(#{$image-url}warning-outline.svg);
+    background-color: $msb-warning;
+  }
+  //IE 11 support (no masks, no color external svgs)
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    background-image: url(#{$image-url}icon_alert.png);
+    @include msb-banner-IE11();
+  }
+}
+//info
+@mixin msb-info-banner(){
+  @include msb-banner();
+  &::before {
+    -webkit-mask-image:  url('@{ignite-icon-url}info.svg');
+    mask-image:  url('@{ignite-icon-url}info.svg');
+    background-color: $msb-secondary;
+  }
+  //IE 11 support (no masks, no color external svgs)
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    background-image: url('@{ultipro-image-url}icon_info.png');
+    @include msb-banner-IE11();
+  }
+}
+
+//success
+@mixin msb-success-banner(){
+  @include msb-banner();
+  &::before {
+    -webkit-mask-image:  url(#{$image-url}status-finalize.svg);
+    mask-image:  url(#{$image-url}status-finalize.svg);
+    background-color: $msb-success;
+  }
+  //IE 11 support (no masks, no color external svgs)
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    background-image: url(#{$image-url}icon_success.png);
+    @include msb-banner-IE11();
+  }
+}

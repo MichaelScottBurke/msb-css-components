@@ -39,6 +39,44 @@
 </section>
 
 <!--
+******************* BANNERS *************************
+-->
+
+<h2 id="app-bar-section" name="app-bar-section">Banners</h2>
+<p>Banners panels that dynamically appear on the top of the screen either in response to user input (like errors, warnings or success) or to indicate the state of the particular screen (e.g, information, etc.</p>
+<section>
+<div id="ctl00_errMsg" class="error">
+        <h3>Errors</h3>
+        <ul>
+          <li>Correct the following errors: Birthdate, City and Zip code</li>
+        </ul>
+      </div>
+
+      <div id="ctl00_warnMsg" class="warning">
+        <h3>Warning</h3>
+        <ul>
+          <li>Employee is under 16 years of age.</li><input onclick="javascript:fClickNextButton();" type="button"
+            id="IgnoreBtn" value="Ignore warnings" class="pointer">
+        </ul>
+      </div>
+
+      <div id="ctl00_infoMsg" class="info">
+        <h3>Information</h3>
+        <ul>
+          <li>You must create at least one ALE to begin working on PPACA. Please navigate to System Configuration &gt;
+            Business Rules &gt; Applicable Large Employer to set up your ALE Members</li>
+        </ul>
+      </div>
+      <div class="success">
+        <h3>Success</h3>
+        <ul>
+          <li>You have successfully submitted your request</li>
+        </ul>
+      </div>
+
+</section>
+
+<!--
 ******************* BUTTONS *************************
 -->
 <h2 id="button-section" name="button-section">Buttons</h2>
