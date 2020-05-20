@@ -6,7 +6,11 @@
   width: 100%;
   background-color: $msb-primary;
   @include msb-primary;
+  .nav-buttons {
+    display: inline-block;
+  }
   h1 {
+    display: inline-block;
     padding: 0;
     margin: 0;
    @include msb-nav-heading-on-dark();
