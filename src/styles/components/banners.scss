@@ -53,7 +53,7 @@ $image-url: "./../../assets/img/";
       }
       //buttons in ul
       +input[type='button'] {
-        @include msb-button-medium-mid-emphasis-mixin();
+        @include msb-button-medium-low-emphasis-mixin();
         margin-top: 8px;
         margin-bottom: 0;
         margin-left: -16px;
@@ -101,8 +101,8 @@ $image-url: "./../../assets/img/";
 @mixin msb-info-banner(){
   @include msb-banner();
   &::before {
-    -webkit-mask-image:  url('@{ignite-icon-url}info.svg');
-    mask-image:  url('@{ignite-icon-url}info.svg');
+    -webkit-mask-image:  url(#{$image-url}info.svg);
+    mask-image:  url(#{$image-url}info.svg);
     background-color: $msb-secondary;
   }
   //IE 11 support (no masks, no color external svgs)
