@@ -3,17 +3,17 @@
 
 
 //banner mixins applied to existing classes
-.example-error {
+.example-error-banner {
   @include msb-error-banner;
 }
-.example-warning {
-
+.example-warning-banner {
+  @include msb-wa-banner;
 }
-.example-info {
-
+.example-info-banner {
+  @include msb-info-banner;
 }
-.example-success {
-
+.example-success-banner {
+  @include msb-success-banner;
 }
 
 
