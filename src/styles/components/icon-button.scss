@@ -1,0 +1,23 @@
+@import "./../variables.scss";
+
+.msb-icon-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  &:hover {
+    background-color: $msb-hover-on-light;
+    img {
+      opacity: 1;
+    }
+  }
+  &:focus {
+    background-color: $msb-hover-on-light;
+    outline: none;
+  }
+  img {
+    opacity: .55;
+  }
+}
