@@ -18,7 +18,7 @@ input[type="radio"], input[type="radio"]:checked {
       margin: 0;
       content: " ";
       //background-image: url(#{$img-url}radio-off.svg);
-       -webkit-mask-image:  url(#{$img-url}radio-off.svg);
+      //  -webkit-mask-image:  url(#{$img-url}radio-off.svg);
       mask-image:  url(#{$img-url}radio-off.svg);
       background-color: $msb-icon-default;
       //transition: $msb-transition;
